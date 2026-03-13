@@ -1059,7 +1059,7 @@ const selected = {};
   
 function copiarPix() {
   const cnpjTexto = document.getElementById("pix-chave").innerText;
-  const btn = document.getElementById("btn-copiar");
+  const btn = document.getElementById("btn-copiar-pix");
   navigator.clipboard.writeText(cnpjTexto).then(() => {
     const textoOriginal = btn.innerHTML;
     btn.innerHTML = "✅ Copiado!";
