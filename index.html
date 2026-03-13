@@ -514,13 +514,17 @@
   
 <div class="pix-key-box">
   <div class="pix-key-label">Chave Pix — CNPJ</div>
-    
-  <div class="pix-key-value" id="cnpj-pix">46.579.998/0001-21</div>
-    
-    <button type="button" onclick="copiarCNPJ()" id="btn-copiar" style="margin-top: 10px; background: var(--gold); border: none; color: white; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-family: 'Cormorant Garamond', serif; font-weight: bold; width: 100%; font-size: 1rem;">
-      📋 Copiar CNPJ
+
+  <div class="pix-container">
+    <span id="pix-chave">
+      46.579.998/0001-21
+    </span>
+
+    <button onclick="copiarPix()" id="btn-copiar-pix">
+      COPIAR CHAVE PIX
     </button>
   </div>
+</div>
     color: var(--cream-light);
     border: none;
     border-radius: 8px;
